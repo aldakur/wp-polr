@@ -1,0 +1,60 @@
+# Copyright (C) 2017 Polr Wordpress Plugin
+# This file is distributed under the same license as the Polr Wordpress Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Polr Wordpress Plugin 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/polr\n"
+"POT-Creation-Date: 2017-05-24 14:02:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/admin-menu.php:15
+msgid "Polr settings"
+msgstr ""
+
+#: admin/admin-menu.php:15 admin/polr-metabox.php:15
+msgid "Polr"
+msgstr ""
+
+#: admin/plugins-page.php:15
+msgid "Settings"
+msgstr ""
+
+#: admin/polr-metabox.php:29
+msgid "Create polr URL"
+msgstr ""
+
+#: admin/settings-page.php:34
+msgid "Host URL"
+msgstr ""
+
+#: admin/settings-page.php:40
+msgid "API key"
+msgstr ""
+
+#: admin/settings-page.php:43
+msgid "You find the API key in your dashboard"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Polr Wordpress Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/aldakur/polr-wordpress-plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Polr is a quick, modern, and open-source link shortener. This plugin allows you to use Polr service in Wordpress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Egoitz Gonzalez"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.egoitzgonzalez.com"
+msgstr ""
