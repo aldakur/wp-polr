@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Polr Wordpress Plugin
-Plugin URI: https://wordpress.org/plugins/polr-wordpress-plugin
+Plugin URI: https://wordpress.org/plugins/wp-polr
 Description: Polr is a quick, modern, and open-source link shortener. This plugin allows you to use Polr service in Wordpress.
 Version: 1.0.1
 Author: Egoitz Gonzalez
