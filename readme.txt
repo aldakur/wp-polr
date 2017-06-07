@@ -18,7 +18,7 @@ Polr software is a good way to shorten the long urls. Now you can use it very fa
 
 = Plugin Features =
 * Shorten url of posts.
-* Github: [Polr Wordpress Plugin](https://github.com/aldakur/polr-wordpress-plugin)
+* Github: [Polr Wordpress Plugin](https://github.com/aldakur/wp-polr)
 
 == Installation ==
 
