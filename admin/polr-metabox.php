@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 	*/
 function polr_add_metabox() {
     //doc http://codex.wordpress.org/Function_Reference/add_meta_box
-    add_meta_box('polr_url', esc_html(__('Polr', 'polr')),'polr_url_handler', 'post', 'side', 'high'); // id, title, The function that is executed when creating the box, element type.
+    add_meta_box('polr_url', esc_html(__('Polr', 'wp-polr')),'polr_url_handler', 'post', 'side', 'high'); // id, title, The function that is executed when creating the box, element type.
 }
 add_action('add_meta_boxes', 'polr_add_metabox' );
 
@@ -26,7 +26,7 @@ function polr_url_handler() {
     $post_uri = esc_url(get_post_permalink());
 
     echo '<input type="text" id="polr_shortened_url" name="polr_shortened_url"  value="'.$polr_link.'" readonly />';
-    echo '<p class="submit"><input id="button_polr_get_url" class="button button-primary button-large" name="button_polr_get_url" value="'. esc_html(__('Create polr URL', 'polr')).'" type="button" /></p>';
+    echo '<p class="submit"><input id="button_polr_get_url" class="button button-primary button-large" name="button_polr_get_url" value="'. esc_html(__('Create polr URL', 'wp-polr')).'" type="button" /></p>';
 }
 
 /**

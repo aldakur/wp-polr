@@ -31,16 +31,16 @@ function polr_plugin_options() { // Page design. This function is called in admi
             <?php @do_settings_fields('polr-group'); ?>
             <table class="form-table">
 							<tr valign="top">
-									<th scope="row"><label for="polr_settings_host_title"><?php echo esc_html(__('Host URL', 'polr')); ?></label></th>
+									<th scope="row"><label for="polr_settings_host_title"><?php echo esc_html(__('Host URL', 'wp-polr')); ?></label></th>
 									<td>
 											<input type="url" name="polr_settings_host" id="polr_settings_host" placeholder="https://polr.me" value="<?php echo esc_url(get_option('polr_settings_host')); // If a previous value exists, it shows it ?>" />
 									</td>
 							</tr>
                 <tr valign="top">
-                    <th scope="row"><label for="polr_dashboard_title"><?php echo esc_html(__('API key', 'polr')); ?></label></th>
+                    <th scope="row"><label for="polr_dashboard_title"><?php echo esc_html(__('API key', 'wp-polr')); ?></label></th>
                     <td>
                         <input type="text" name="polr_settings_api_key" id="polr_settings_api_key" value="<?php echo esc_attr(get_option('polr_settings_api_key')); // If a previous value exists, it shows it ?>" />
-                        <br/><small><?php echo esc_html(__('You find the API key in your dashboard', 'polr')); ?></small>
+                        <br/><small><?php echo esc_html(__('You find the API key in your dashboard', 'wp-polr')); ?></small>
                     </td>
                 </tr>
             </table> <?php @submit_button(); ?>

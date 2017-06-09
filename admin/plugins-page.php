@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
   * | Deactive | Settings |
   */
 function polr_plugin_add_settings_link( $links ) {
-    $settings_link = '<a href="options-general.php?page=polr">' . esc_html(__( 'Settings' )) . '</a>';
+    $settings_link = '<a href="options-general.php?page=polr">' . esc_html(__( 'Settings', 'wp-polr' )) . '</a>';
     array_push( $links, $settings_link );
   	return $links;
 }
