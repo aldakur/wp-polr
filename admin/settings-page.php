@@ -28,7 +28,7 @@ function polr_plugin_options() { // Page design. This function is called in admi
         <h2>Polr Wordpress Plugin</h2>
         <form action="<?php echo esc_url( admin_url('options.php') ); ?>" method="post">
             <?php settings_fields('polr-group'); ?>
-            <?php @do_settings_fields('polr-group'); ?>
+            <?php do_settings_fields('polr-group'); ?>
             <table class="form-table">
 							<tr valign="top">
 									<th scope="row"><label for="polr_settings_host_title"><?php echo esc_html(__('Host URL', 'wp-polr')); ?></label></th>
@@ -43,7 +43,7 @@ function polr_plugin_options() { // Page design. This function is called in admi
                         <br/><small><?php echo esc_html(__('You find the API key in your dashboard', 'wp-polr')); ?></small>
                     </td>
                 </tr>
-            </table> <?php @submit_button(); ?>
+            </table> <?php submit_button(); ?>
         </form>
     </div>
     <?php
