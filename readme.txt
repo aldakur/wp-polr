@@ -4,7 +4,7 @@ Contributors: aldakur
 Donate link: http://egoitzgonzalez.com/
 Tags: polr, link-shortener, shortener, open-source, free-software
 Requires at least: 4.7.3
-Tested up to: 4.7.5
+Tested up to: 5.5.3
 Stable tag: 1.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
